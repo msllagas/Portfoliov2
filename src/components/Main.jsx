@@ -1,3 +1,4 @@
+import About from "./About";
 import Home from "./Home";
 
 export default function Main() {
@@ -6,6 +7,7 @@ export default function Main() {
       <div className="w-full lg:w-3/5">
         <div className="h-28"></div>
         <Home />
+        <About />
       </div>
     </main>
   );
