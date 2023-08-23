@@ -18,7 +18,7 @@ export default function Home() {
       href="../../data/MandyLlagas_Resume.pdf"
       target="_blank"
       rel="noreferrer"
-      className="flex cursor-pointer items-center gap-2 rounded-xl bg-gray-300 px-6 py-3 text-sm transition-colors hover:bg-amber-500 animate-enlarge"
+      className="flex cursor-pointer items-center gap-2 rounded-xl bg-gray-300 px-6 py-3 text-sm transition-colors hover:bg-amber-500 animate-beat"
     >
       <img src="open-external.svg" alt="" className="h-5 w-5" />
       Resume
