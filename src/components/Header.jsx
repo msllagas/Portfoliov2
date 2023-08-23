@@ -20,7 +20,7 @@ const links = [
 
 export default function Header() {
   return (
-    <header className="fixed w-full transition-all">
+    <header className="fixed w-full transition-all z-50">
       <nav className="ml-auto mr-auto flex h-14 items-center justify-between border-b border-b-gray-300 bg-gray-800 px-3 py-3 lg:w-[70%] ">
         <h1
           className=" text-secondary  cursor-pointer text-3xl font-bold text-amber-500"
