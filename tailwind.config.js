@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       animation: {
-        enlarge: "beat 2s infinite",
+        beat: "beat 2s infinite",
       },
       keyframes: {
         beat: {
