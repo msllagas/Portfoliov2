@@ -15,7 +15,7 @@ export default function Home() {
     <h1 className="mt-2 text-3xl font-bold  text-amber-500">Mandy Llagas</h1>
     <p className="mb-5 mt-1 text-gray-300">Front-end Developer</p>
     <a
-      href="../../data/MandyLlagas_Resume.pdf"
+      href="resume.pdf"
       target="_blank"
       rel="noreferrer"
       className="flex cursor-pointer items-center gap-2 rounded-xl bg-gray-300 px-6 py-3 text-sm transition-colors hover:bg-amber-500 animate-beat"
