@@ -70,7 +70,7 @@ export default function Skills() {
     <section id="skills" className="px-5 text-gray-300 lg:px-0">
       <div className="h-14"></div>
       <h2 className="mt-2 text-2xl font-bold tracking-widest text-amber-500">
-        Skill
+        Skills
       </h2>
       <div className="grid grid-cols-2 gap-4 sm:grid-cols-3 md:grid-cols-5">
         {skills.map((skill) => (
