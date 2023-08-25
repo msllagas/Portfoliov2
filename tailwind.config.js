@@ -6,12 +6,6 @@ export default {
       animation: {
         beat: "beat 2s infinite",
       },
-      keyframes: {
-        beat: {
-          "0%, 100%": { transform: "scale(0.95)" },
-          "70%": { transform: "scale(1)", "background-color": "#f59e0b" },
-        },
-      },
       dropShadow: {
         css: "0 0 2em rgba(17,114,184,1.000)",
         html: "0 0 2em rgba(228,77,38,1.000)",
@@ -28,6 +22,15 @@ export default {
         figma: "0 0 2em rgba(255,114,98,1.000)",
         git: "0 0 2em rgba(238,81,59,1.000)",
         unity: "0 0 2em rgba(149,151,152,1.000)",
+      },
+      fontFamily: {
+        space: "Space Mono, monospace",
+      },
+      keyframes: {
+        beat: {
+          "0%, 100%": { transform: "scale(0.95)" },
+          "70%": { transform: "scale(1)", "background-color": "#f59e0b", "box-shadow": "0 0 2em rgba(231,111,0,1.000)" },
+        },
       },
     },
   },
