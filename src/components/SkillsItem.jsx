@@ -10,8 +10,8 @@ export default function SkillsItem({ skill }) {
     react: "hover:drop-shadow-react",
     spring: "hover:drop-shadow-spring",
     firebase: "hover:drop-shadow-firebase",
-    sqlite: "hover:hover:drop-shadow-sqlite",
-    mysql: "hover:hover:drop-shadow-mysql",
+    sqlite: "hover:drop-shadow-sqlite",
+    mysql: "hover:drop-shadow-mysql",
     figma: "hover:drop-shadow-figma",
     git: "hover:drop-shadow-git",
     unity: "hover:drop-shadow-unity",
@@ -22,7 +22,7 @@ export default function SkillsItem({ skill }) {
       <img
         src={`${skill.name}.svg`}
         alt={`${skill.name} logo`}
-        className={`${colors[skill.name]} h-16 w-16 grayscale transition-all hover:grayscale-0`}
+        className={`${colors[skill.name]} h-16 w-16 transition-all`}
       />
     </div>
   );
