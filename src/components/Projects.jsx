@@ -13,7 +13,7 @@ export default function Projects() {
         />
         <p className="text-center text-xl md:text-2xl capitalize">working on it!</p>
       </div>
-      <p className="md:text-base text-sm">
+      <p className="paragraph">
         For now, why don&apos;t you click on my GitHub profile and look at some of my
         projects hmm?
       </p>
