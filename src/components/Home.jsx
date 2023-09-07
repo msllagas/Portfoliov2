@@ -4,7 +4,7 @@ export default function Home() {
       id="home"
       className="flex w-full flex-col items-center justify-end"
     >
-      <div className="relative h-40 w-40 rounded-full">
+      <div className="relative h-48 w-48 rounded-full">
         <div className="h-full w-full overflow-hidden rounded-full bg-gradient-to-r from-amber-500 via-orange-600 to-red-700 p-0.5 ">
           <div className="h-full w-full rounded-full bg-gray-800"></div>
         </div>
