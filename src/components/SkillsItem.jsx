@@ -18,6 +18,8 @@ export default function SkillsItem({ skill }) {
   }
 
   return (
+    <span title={skill.tooltip}>
+
     <div className="grid place-items-center p-4">
       <img
         src={`${skill.name}.svg`}
@@ -25,5 +27,6 @@ export default function SkillsItem({ skill }) {
         className={`${colors[skill.name]} h-16 w-16 transition-all`}
       />
     </div>
+    </span>
   );
 }
