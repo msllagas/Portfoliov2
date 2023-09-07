@@ -15,7 +15,7 @@ export default function Home() {
         />
       </div>
       <h1 className="mt-2 text-3xl font-bold  text-amber-500">Mandy Llagas</h1>
-      <p className="mb-5 mt-1 text-lg text-gray-300">Front-end Developer</p>
+      <p className="mb-5 mt-1 text-lg text-gray-300">Software Engineer</p>
       <a
         href="resume.pdf"
         target="_blank"
