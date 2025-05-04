@@ -6,14 +6,12 @@ export default function About() {
         About
       </h2>
       <p className="paragraph">
-        Hey there 👋! I am a graduating 4<sup>th</sup> year student from
-        Polytechnic University of the Philippines (PUP). I am an aspiring
-        Software Engineer with passion on developing systems.
+        Hey there 👋! I am a Web Developer based in the Philippines. I have a
+        passion for building software and learning new things.
       </p>
       <p className="paragraph">
         I am continuosly learning and building small projects to solidify my
-        knowledge. As of now, I&apos;m currently learning Spring and Spring
-        Boot. I&apos;m eager to be part of the growing tech industry and
+        knowledge. I&apos;m eager to be part of the growing tech industry and
         showcase my knowledge.
       </p>
       <p className="paragraph">

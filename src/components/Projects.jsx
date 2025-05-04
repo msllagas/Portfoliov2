@@ -15,7 +15,7 @@ export default function Projects() {
       </div>
       <p className="paragraph">
         For now, why don&apos;t you click on my GitHub profile and look at some of my
-        projects hmm?
+        projects.
       </p>
       <div className="h-14"></div>
 
